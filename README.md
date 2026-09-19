@@ -4,6 +4,8 @@ This is a reference configuration for a GCP Landing Zone foundation for US finte
 
 🆓 Merlin is now open — no signup, no email. Guest mode lets you start designing your own landing zone instantly. [Open Merlin →](https://app.merlin-studio.cloud)
 
+✉️ **Questions about this example, or need one shaped for your organization?** Write to [intentarcha@gmail.com](mailto:intentarcha@gmail.com?subject=GCP-Financial-Services-Example) — questions, corrections and requests are all welcome.
+
 # acme-lz3 - Configuration Documentation
 
 > **Generated:** 2026-05-01T06:39:03.602616Z
@@ -485,5 +487,7 @@ Merlin Studio implements the Compiled AI paradigm: LLMs at build time, determini
 Article: [Compile-Time AI for GCP Landing Zones](https://medium.com/google-cloud/compile-time-ai-for-gcp-landing-zones-2555560fbd2f).
 
 ---
+
+✉️ Questions or feedback: [intentarcha@gmail.com](mailto:intentarcha@gmail.com?subject=GCP-Financial-Services-Example)
 
 ⭐ If this saved you time, a star helps others find it.
