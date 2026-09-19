@@ -16,7 +16,7 @@ projects:
   overrides: {}
 context:
   email_addresses:
-    gcp-organization-admins: acme-admins@gmail.com
+    gcp-organization-admins: acme-admins@example.com
   iam_principals:
     gcp-org-admin: group:gcp-organization-admins@acme.com
     gcp-billing-admin: group:gcp-billing-admins@acme.com

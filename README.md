@@ -473,7 +473,7 @@ These tokens ensure that cross-stage dependencies are resolved automatically by 
 
 | Role | Email |
 |------|-------|
-| Primary Contact | acme-admins@gmail.com |
+| Primary Contact | intentarcha@gmail.com |
 
 
 ---

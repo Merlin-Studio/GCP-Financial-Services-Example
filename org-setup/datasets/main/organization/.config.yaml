@@ -4,7 +4,7 @@
 
 id: $defaults:organization/id
 contacts:
-  acme-admins@gmail.com:
+  acme-admins@example.com:
   - ALL
 iam_by_principals:
   $iam_principals:gcp-org-admin:
