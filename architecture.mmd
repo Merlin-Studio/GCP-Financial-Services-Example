@@ -412,15 +412,15 @@ graph TB
         direction TB
         VPC_SERVIC_INTERNET["🌍 Untrusted<br/>Internet"]
 
+        subgraph ACCESS["🎫 Access Levels"]
+            direction TB
+            AL_corp_network["corp-network"]
+            AL_fast_automation["fast-automation"]
+            AL_admin_identity["admin-identity"]
+        end
+
         subgraph PERIM_main["🔒 Main Perimeter (dry-run mode)"]
             direction TB
-
-            subgraph ACCESS["🎫 Access Levels"]
-                direction TB
-                AL_corp_network["corp-network"]
-                AL_fast_automation["fast-automation"]
-                AL_admin_identity["admin-identity"]
-            end
 
             WORKLOADS["📦 20 Workload Projects<br/><i>(gke/dp/app/ops/cmp × dev/stg/prd/int)</i>"]
 
@@ -429,8 +429,8 @@ graph TB
 
         %% Connections
         VPC_SERVIC_INTERNET -.->|"❌ blocked"| RESTRICTED
-        AL_admin_identity -->|"✅ ingress"| PERIM_main
-        AL_fast_automation -->|"✅ ingress"| PERIM_main
+        AL_admin_identity -->|"✅ ingress"| WORKLOADS
+        AL_fast_automation -->|"✅ ingress"| WORKLOADS
         RESTRICTED -->|"📤 egress: artifactregistry"| VPC_SERVIC_INTERNET
         RESTRICTED -->|"📤 egress: logging"| VPC_SERVIC_INTERNET
 
