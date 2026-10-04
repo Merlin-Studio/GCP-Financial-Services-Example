@@ -53,6 +53,13 @@ This cloud foundation is configured to support:
 
 > **Before deploying:** This is an example reference. Replace `<YOUR_ORG_ID>`, `<YOUR_BILLING_ACCOUNT_ID>`, the `acme.com` domain, and the `acme-lz3` project prefix with your own values. See `DEPLOYMENT_GUIDE.md` for the full prerequisite checklist.
 
+## Generate your own version
+
+Everything in this repository came out of Merlin, from one set of answers. To
+get the same landing zone for your own company — your organization, regions
+and compliance — answer Merlin's questions and generate it. Merlin now also builds what runs on it: 25 workload archetypes, four of them shown end to end in [a complete example](https://github.com/Merlin-Studio/GCP-Terraform-Vertex-AI-RAG-GKE-Examples).
+Guest mode, no signup. **[Open Merlin →](https://app.merlin-studio.cloud)**
+
 ---
 
 ## 1. Organization Structure
